@@ -1,0 +1,38 @@
+body{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+.navbar h3{
+	color: #9d9d9d;
+	font-size: 20px;
+}
+.navbar img{
+	position: relative;
+    top: -4px;
+}
+.container{
+	margin: 0 auto;
+}
+.signin {
+	width: 30%;
+  padding: 15px;
+  margin: 20px auto;
+}
+.btn a{ color: #fff;
+text-decoration: none;}
+@media screen and (max-width: 900px) {
+    .signin  {
+        width: 45%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+	.signin  {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .signin  {
+        width:60%;
+    }
+}

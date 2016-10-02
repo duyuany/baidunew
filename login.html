@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<!--如果支持Google Chrome Frame：GCF，则使用GCF渲染；
+                          如果系统安装ie8或以上版本，则使用最高版本ie渲染；
+                          否则，这个设定可以忽略。-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 页面宽度为设备宽度，缩放比例为1-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>Bootstrap 101 Template</title>
+		<!-- Bootstrap -->
+		<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			    <div class="navbar-header">
+			    	<h3>
+					  <img src="img/education_science_473px_1173799_easyicon.net.png" alt="Brand" width="50" height="50" />后台登录系统
+				    </h3>
+			    </div>
+				
+		</div>
+		<div class="container">			
+			<form action="backstage.html" class="signin">
+				<h1>Please sign in</h1>
+				<div class="form-group">
+				<label for="userName" class="sr-only">用户名</label>
+				<input name="username" autofocus="autofocus" required="required"  type="text" class="form-control" id="userName" placeholder="请输入用户名" />               
+                </div>
+				<label for="password" class="sr-only">密码</label>
+				<input name="password" type="password" required="required" class="form-control" id="password" placeholder="请输入密码" />
+				<div class="checkbox">
+                    <label>
+					<input type="checkbox" value="" />Remember me
+					</label>
+               </div>
+               <div class="form-group">
+					<button type="submit" class="btn btn-primary btn-block">Sign In</button>
+				</div>
+			</form>
+			</div>
+
+	</body>
+
+</html>
